@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name='author' content='Mohamed Fawzy'>
+    <meta name='description' content='GSAP simple hero.'>
+    <meta name='keywords' content='GSAP, HTML,SCSS,TWEEN'>
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <nav class="nav-fixed">
+        <div class="nav-fixed--logo">
+            <h2>Portofolio</h2>
+        </div>
+        <div>
+            <ul class="nav-fixed--list">
+                <li class="nav-fixed--list--item"><a href="#dataOne" class="nav-fixed--list--item--link">shop</a></li>
+                <li class="nav-fixed--list--item"><a href="#dataTwo" class="nav-fixed--list--item--link">blog</a></li>
+                <li class="nav-fixed--list--item"><a href="#dataThree" class="nav-fixed--list--item--link">contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navopen">
+            <div class="navopen--content" id="dataOne">
+                <div>
+                    <h2>clothes</h2>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="javascript:void(0)">shop</a></li>
+                        <li><a href="javascript:void(0)">clothes</a></li>
+                        <li><a href="javascript:void(0)">collection</a></li>
+                    </ul>
+                </div>
+                <div><img src="./images/fashion-nav-1.jpg" class="navopen--img" alt=""></div>
+                <div><img src="./images/fashion-nav-2.jpg" class="navopen--img" alt=""></div>
+            </div>
+            <div class="navopen--content" id="dataTwo">
+                <div>
+                    <h2>clothes 1</h2>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="javascript:void(0)">shop</a></li>
+                        <li><a href="javascript:void(0)">clothes</a></li>
+                        <li><a href="javascript:void(0)">collection</a></li>
+                    </ul>
+                </div>
+                <div><img src="./images/fashion-nav-1.jpg" class="navopen--img" alt=""></div>
+                <div><img src="./images/fashion-nav-2.jpg" class="navopen--img" alt=""></div>
+            </div>
+            <div class="navopen--content" id="dataThree">
+                <div>
+                    <h2>clothes 2</h2>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="javascript:void(0)">shop</a></li>
+                        <li><a href="javascript:void(0)">clothes</a></li>
+                        <li><a href="javascript:void(0)">collection</a></li>
+                    </ul>
+                </div>
+                <div><img src="./images/fashion-nav-1.jpg" class="navopen--img" alt=""></div>
+                <div><img src="./images/fashion-nav-2.jpg" class="navopen--img" alt=""></div>
+            </div>
+        </div>
+    </nav>
+    <section class="home">
+        <div class="home--carousel">
+
+            <div class="home--carousel--container">
+                <ul class="home--carousel--container--list">
+                    <li class="home--carousel--container--list--item current-slide">
+                        <img class="home--carousel--container--list--item--image" src="./images/fashion.jpg"
+                            alt="Image 1">
+                    </li>
+                    <li class="home--carousel--container--list--item ">
+                        <img class="home--carousel--container--list--item--image" src="./images/fashion-2.jpg"
+                            alt="Image 2">
+                    </li>
+                    <li class="home--carousel--container--list--item">
+                        <img class="home--carousel--container--list--item--image" src="./images/fashion-3.jpg"
+                            alt="Image 3">
+                    </li>
+                    <li class="home--carousel--container--list--item">
+                        <img class="home--carousel--container--list--item--image" src="images/fashion-1.jpg"
+                            alt="Image 4">
+                    </li>
+                    <li class="home--carousel--container--list--item">
+                        <img class="home--carousel--container--list--item--image" src="images/fashion-4.jpg"
+                            alt="Image 5">
+                    </li>
+
+                </ul>
+            </div>
+
+
+
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
